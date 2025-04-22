@@ -5,27 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Week 4 Multi-page Bio" content="Week 4">
     <meta name="author" content="Benjamin Deschene">
-    <title>SE111 | W1</title>
+    <title>SE111 | W3</title>
 </head>
 <style>
-h1 {
-    color: rgb(175, 64, 209);
-    text-align: center;
-}
-body {
-    background-color: rgb(96, 132, 187);
-  }
-p {
-    text-align: center;  
-}
+    /* Reset some default styling */
+    body, h2, ol, li, a {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* General body styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    /* Navigation Bar Styling */
+    #nav {
+        background-color: #333;
+        padding: 10px;
+    }
+
+    #nav nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+
+    #nav nav a:hover {
+        color: #ff6600;
+    }
+
+    /* Main content section */
+    div {
+        padding: 20px;
+    }
+
+    /* Schooling heading styling */
+    h2#Sch {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Ordered list styling */
+    ol {
+        list-style-type: decimal;
+        padding-left: 20px;
+    }
+
+    ol li {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
 </style>
 <body>
     <hr>
     <div id = "nav">
         <nav >
-            <a href="w3/index.html">Bio</a> 
-            <a href="w3/sch.html">Schooling</a>
-            <a href="w3/hob.html">Hobbies</a>
+            <a href="../w3/index.html">Bio</a> 
+            <a href="../w3/sch.html">Schooling</a>
+            <a href="../w3/hob.html">Hobbies</a>
             <a href="../index.html">Back to Home</a>
         </nav>
     </div>
@@ -37,9 +80,5 @@ p {
         </p>
         <img src="../w2/images/download.jpg">
     </div>
-    <footer id="footer">
-        <a href="../w2/index.html#nav">Back to Top</a>
-    </footer>
-    
 </body>
 </html>
