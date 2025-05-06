@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Back to Home</a>
+    </nav>
+
+    <script>
+        var hourlypay = prompt("Enter your hourly pay:")
+        var hoursWorked = prompt("How many hours did you work the last 2 weeks: ")
+        var grosspay = Number(hourlypay) * Number(hoursWorked)
+        var taxRate = 0.2
+        var tax = grosspay * taxRate
+        var totpay = grosspay - tax
+        alert('Gross Pay: $'+grosspay.toFixed(2)+"\n"+'Tax: $'+tax.toFixed(2)+"\n"+'Total Pay: $'+totpay.toFixed(2))
+        console.log(grosspay)
+        console.log(tax)
+        console.log(totpay)
+
+    </script>
+    
+</body>
+</html>
